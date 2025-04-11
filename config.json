@@ -1,0 +1,14 @@
+{
+    "veeamPowerShellModule": "Veeam.Backup.PowerShell",
+    "veeamServerAddress": "localhost",
+    "checkIntervalMinutes": 15,
+    "smtpServer": "localhost",
+    "smtpPort": 25,
+    "emailFrom": "veeam-monitor@example.com",
+    "emailTo": ["admin@example.com"],
+    "emailPassword": "",
+    "monitorFailedJobs": true,
+    "monitorWarningJobs": true,
+    "monitorRunningJobs": true,
+    "longRunningThreshold": 120
+} 
